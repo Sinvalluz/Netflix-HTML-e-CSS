@@ -1,88 +1,21 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./main.css);
+
 :root {
     --Branco: #fff;
     --preto: #000;
     --cinza-opacidade-reduzida: rgb(156, 156, 156, 0.5);
     --cinza: rgb(156, 156, 156, 1);
+    --cinza-hover: rgb(82, 77, 77);
 }
 
 body {
     box-sizing: border-box;
     min-height: 100vh;
     font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     background-color: var(--preto);
-}
-
-.container__secao__principal {
-    background-image: url(../images/Plano\ de\ fundo.png);
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-}
-
-.container__secao__principal-divisoria {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 50px;
-}
-
-.secao__principal__titulo img {
-    width: 80%;
-}
-
-.secao__principal__paragrafo {
-    width: 80%;
-    font-size: 1.5rem;
-    color: var(--Branco);
-    font-weight: 500;
-    margin: 25px 0 50px 0;
-}
-
-.secao__principal__botões {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-}
-
-.secao__principal__botões__bt1 {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding: 12px 32px;
-    font-size: 1.5rem;
-    border: none;
-    border-radius: 5px;
-    color: var(--preto);
-    cursor: pointer;
-    background-color: var(--Branco);
-    transition: all 0.2s linear;
-}
-
-.secao__principal__botões__bt1:hover {
-    background-color: var(--preto);
-    color: var(--Branco);
-    transform: scale(1.05);
-}
-
-
-.secao__principal__botões__btn2 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 11px 32px;
-    font-size: 1.5rem;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--cinza-opacidade-reduzida);
-    color: var(--Branco);
-    cursor: pointer;
-    transition: all 0.2s linear;
-}
-
-.secao__principal__botões__btn2:hover {
-    background-color: var(--cinza);
-    color: var(--preto);
-    transform: scale(1.05);
 }

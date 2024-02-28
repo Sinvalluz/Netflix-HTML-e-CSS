@@ -1,0 +1,57 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    height: 66px;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navegacao__lista {
+    display: flex;
+    gap: 1rem;
+}
+
+.navegacao__lista__link {
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: color 0.2s linear;
+}
+
+.navegacao__lista__link:hover {
+    color: var(--Branco);
+}
+
+.cabecalho__titulo img {
+    height: 30px;
+}
+
+.cabecalho__componentes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho__componentes button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: none;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.perfil__seta,
+.perfil__notificacao,
+.perfil__lupa {
+    height: 20px;
+}
